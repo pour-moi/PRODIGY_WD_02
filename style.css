@@ -3,6 +3,12 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #1f1f1f;
+}
+
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url(./fonts/SpaceGrotesk-Bold.ttf);
 }
 
 .container {
@@ -10,6 +16,19 @@ body {
   flex-direction: column;
   justify-content: center;
   height: 100%;
+}
+
+p {
+  color: white;
+  font-family: "SpaceGrotesk";
+}
+
+button {
+  padding: 0.5em;
+  width: 7rem;
+  border-radius: 1em;
+  border-style: none;
+  font-family: "SpaceGrotesk";
 }
 
 .time-container {
@@ -24,8 +43,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2em;
 }
 
 .laps-container {
   overflow-y: auto;
+}
+
+.Time {
+  font-family: SpaceGrotesk;
+  font-weight: 600px;
+  font-size: 6rem;
+  color: white;
 }
