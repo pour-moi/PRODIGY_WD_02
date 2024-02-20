@@ -18,9 +18,25 @@ body {
   height: 100%;
 }
 
+.milliseconds {
+  font-size: 2rem;
+}
+
+p > .milliseconds {
+  font-size: medium;
+}
+
+.minutes,
+.seconds,
+.milliseconds {
+  display: inline-block;
+  width: 2ch;
+}
+
 p {
   color: white;
   font-family: "SpaceGrotesk";
+  font-size: medium;
 }
 
 button {
@@ -29,6 +45,7 @@ button {
   border-radius: 1em;
   border-style: none;
   font-family: "SpaceGrotesk";
+  margin: 0.5em;
 }
 
 .time-container {
